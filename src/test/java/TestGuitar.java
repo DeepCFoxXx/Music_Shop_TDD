@@ -1,4 +1,7 @@
 import org.junit.Before;
+import org.junit.Test;
+
+import static org.junit.Assert.assertEquals;
 
 public class TestGuitar {
 
@@ -9,5 +12,11 @@ public class TestGuitar {
         guitar = new Guitar("Gibson SG","Black", 6, 800, 1600);
     }
 
+    @Test
+    public void hasModel() {
+        assertEquals("Gibson SG", guitar.getModel());
+    }
+
+    
 
 }

@@ -14,4 +14,7 @@ public class Guitar extends Instrument {
     }
 
 
+    public String getModel() {
+        return this.model;
+    }
 }
