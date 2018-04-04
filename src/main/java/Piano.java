@@ -19,4 +19,8 @@ public class Piano extends Instrument implements IPlay, ISell {
     public String getManufacturer() {
         return this.manufacturer;
     }
+
+    public int getBuyPrice() {
+        return this.buyPrice;
+    }
 }

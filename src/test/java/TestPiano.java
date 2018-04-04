@@ -28,6 +28,11 @@ public class TestPiano  {
     }
 
     @Test
+    public void hasBuyPrice() {
+        assertEquals(20000, piano.getBuyPrice());
+    }
+
+    @Test
     public void canPlay() {
         assertEquals("I don't like mondays", piano.play());
     }
