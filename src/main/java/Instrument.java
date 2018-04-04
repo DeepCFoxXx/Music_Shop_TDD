@@ -11,4 +11,8 @@ public class Instrument {
     public String getColor() {
         return this.colour;
     }
+
+    public String getType() {
+        return this.type;
+    }
 }

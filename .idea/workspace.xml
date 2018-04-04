@@ -599,7 +599,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestGuitar.hasColor">
+  <component name="RunManager" selected="JUnit.TestGuitar.hasType">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -630,6 +630,23 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestGuitar" />
       <option name="METHOD_NAME" value="hasModel" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="TestGuitar.hasType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MusicShop_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestGuitar" />
+      <option name="METHOD_NAME" value="hasType" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -694,9 +711,11 @@
     <list>
       <item itemvalue="JUnit.TestGuitar.hasModel" />
       <item itemvalue="JUnit.TestGuitar.hasColor" />
+      <item itemvalue="JUnit.TestGuitar.hasType" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestGuitar.hasType" />
         <item itemvalue="JUnit.TestGuitar.hasColor" />
         <item itemvalue="JUnit.TestGuitar.hasModel" />
       </list>
@@ -714,6 +733,14 @@
       <updated>1522844607441</updated>
     </task>
     <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="TestGuitar_hasModel - 2018.04.04 at 13h 46m 58s.xml">
+      <configuration name="TestGuitar.hasModel" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestGuitar_hasColor - 2018.04.04 at 13h 48m 35s.xml">
+      <configuration name="TestGuitar.hasColor" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />

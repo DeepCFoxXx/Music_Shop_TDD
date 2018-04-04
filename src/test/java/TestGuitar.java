@@ -22,4 +22,9 @@ public class TestGuitar {
         assertEquals("Black", guitar.getColor());
     }
 
+    @Test
+    public void hasType() {
+        assertEquals("String", guitar.getType());
+    }
+
 }
