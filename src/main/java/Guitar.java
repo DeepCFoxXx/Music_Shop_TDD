@@ -33,4 +33,8 @@ public class Guitar extends Instrument {
     public int getMarkupPrice() {
         return this.retailPrice -= this.costPrice;
     }
+
+    public String play() {
+        return "Start me up";
+    }
 }
