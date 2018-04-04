@@ -18,6 +18,11 @@ public class TestPiano  {
     }
 
     @Test
+    public void hasColor() {
+        assertEquals("White", piano.getColor());
+    }
+
+    @Test
     public void canPlay() {
         assertEquals("I don't like mondays", piano.play());
     }

@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="acd12353-0124-48b5-a621-2135a2e4e24d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Piano.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestPiano.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestPiano.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestPiano.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -43,11 +42,13 @@
       <file leaf-file-name="Piano.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Piano.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="36" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="36" />
+            <state relative-caret-position="285">
+              <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
               <folding>
                 <element signature="e#427#428#0" expanded="true" />
                 <element signature="e#463#464#0" expanded="true" />
+                <element signature="e#500#501#0" expanded="true" />
+                <element signature="e#526#527#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -56,12 +57,16 @@
       <file leaf-file-name="TestPiano.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestPiano.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+            <state relative-caret-position="315">
+              <caret line="21" column="46" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#113#114#0" expanded="true" />
                 <element signature="e#179#180#0" expanded="true" />
+                <element signature="e#293#294#0" expanded="true" />
+                <element signature="e#323#324#0" expanded="true" />
+                <element signature="e#395#396#0" expanded="true" />
+                <element signature="e#425#426#0" expanded="true" />
                 <element signature="e#237#238#0" expanded="true" />
                 <element signature="e#294#295#0" expanded="true" />
               </folding>
@@ -603,7 +608,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.All in MusicShop_test">
+  <component name="RunManager" selected="JUnit.TestPiano.hasColor">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -644,13 +649,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="TestGuitar.getMarkupPrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestPiano.canPlay" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MusicShop_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestGuitar" />
-      <option name="METHOD_NAME" value="getMarkupPrice" />
+      <option name="MAIN_CLASS_NAME" value="TestPiano" />
+      <option name="METHOD_NAME" value="canPlay" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -661,13 +666,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="TestPiano.canPlay" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestPiano.hasColor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MusicShop_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestPiano" />
-      <option name="METHOD_NAME" value="canPlay" />
+      <option name="METHOD_NAME" value="hasColor" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -748,18 +753,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.All in MusicShop_test" />
-      <item itemvalue="JUnit.TestGuitar.getMarkupPrice" />
       <item itemvalue="JUnit.TestGuitar.canPlay" />
       <item itemvalue="JUnit.TestPiano.canPlay" />
       <item itemvalue="JUnit.TestPiano.hasManufacturer" />
+      <item itemvalue="JUnit.TestPiano.hasColor" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestPiano.hasColor" />
         <item itemvalue="JUnit.All in MusicShop_test" />
         <item itemvalue="JUnit.TestPiano.hasManufacturer" />
         <item itemvalue="JUnit.TestPiano.canPlay" />
         <item itemvalue="JUnit.TestGuitar.canPlay" />
-        <item itemvalue="JUnit.TestGuitar.getMarkupPrice" />
       </list>
     </recent_temporary>
   </component>
@@ -777,18 +782,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestGuitar_hasColor - 2018.04.04 at 13h 48m 35s.xml">
-      <configuration name="TestGuitar.hasColor" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestGuitar_hasType - 2018.04.04 at 13h 51m 18s.xml">
-      <configuration name="TestGuitar.hasType" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestGuitar_getNumberOfStrings - 2018.04.04 at 13h 53m 13s.xml">
-      <configuration name="TestGuitar.getNumberOfStrings" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_MusicShop_test - 2018.04.04 at 13h 53m 23s.xml">
-      <configuration name="All in MusicShop_test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestGuitar_getCostPrice - 2018.04.04 at 13h 54m 44s.xml">
       <configuration name="TestGuitar.getCostPrice" configurationId="JUnit" />
     </history-entry>
@@ -805,6 +798,18 @@
       <configuration name="TestGuitar.canPlay" configurationId="JUnit" />
     </history-entry>
     <history-entry file="All_in_MusicShop_test - 2018.04.04 at 14h 06m 21s.xml">
+      <configuration name="All in MusicShop_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestPiano_canPlay - 2018.04.04 at 14h 14m 26s.xml">
+      <configuration name="TestPiano.canPlay" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_MusicShop_test - 2018.04.04 at 14h 14m 30s.xml">
+      <configuration name="All in MusicShop_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestPiano_hasManufacturer - 2018.04.04 at 14h 17m 53s.xml">
+      <configuration name="TestPiano.hasManufacturer" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_MusicShop_test - 2018.04.04 at 14h 17m 59s.xml">
       <configuration name="All in MusicShop_test" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -927,23 +932,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Piano.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="36" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="36" />
+        <state relative-caret-position="285">
+          <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
           <folding>
             <element signature="e#427#428#0" expanded="true" />
             <element signature="e#463#464#0" expanded="true" />
+            <element signature="e#500#501#0" expanded="true" />
+            <element signature="e#526#527#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestPiano.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+        <state relative-caret-position="315">
+          <caret line="21" column="46" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#113#114#0" expanded="true" />
             <element signature="e#179#180#0" expanded="true" />
+            <element signature="e#293#294#0" expanded="true" />
+            <element signature="e#323#324#0" expanded="true" />
+            <element signature="e#395#396#0" expanded="true" />
+            <element signature="e#425#426#0" expanded="true" />
             <element signature="e#237#238#0" expanded="true" />
             <element signature="e#294#295#0" expanded="true" />
           </folding>
