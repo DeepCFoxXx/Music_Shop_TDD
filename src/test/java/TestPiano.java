@@ -38,6 +38,11 @@ public class TestPiano  {
     }
 
     @Test
+    public void getMarkupPrice() {
+        assertEquals(20000, piano.getMarkupPrice());
+    }
+
+    @Test
     public void canPlay() {
         assertEquals("I don't like mondays", piano.play());
     }
