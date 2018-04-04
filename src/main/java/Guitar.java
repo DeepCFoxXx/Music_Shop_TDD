@@ -1,4 +1,4 @@
-public class Guitar extends Instrument {
+public class Guitar extends Instrument implements IPlay, ISell {
 
     private String model;
     private int numberOfStrings;
