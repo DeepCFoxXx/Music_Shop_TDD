@@ -607,7 +607,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestGuitar.getCostPrice">
+  <component name="RunManager" selected="JUnit.All in MusicShop_test">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -665,13 +665,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="TestGuitar.hasColor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestGuitar.getRetailPrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MusicShop_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestGuitar" />
-      <option name="METHOD_NAME" value="hasColor" />
+      <option name="METHOD_NAME" value="getRetailPrice" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -751,19 +751,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.TestGuitar.hasColor" />
       <item itemvalue="JUnit.TestGuitar.hasType" />
       <item itemvalue="JUnit.TestGuitar.getNumberOfStrings" />
       <item itemvalue="JUnit.All in MusicShop_test" />
       <item itemvalue="JUnit.TestGuitar.getCostPrice" />
+      <item itemvalue="JUnit.TestGuitar.getRetailPrice" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestGuitar.getCostPrice" />
         <item itemvalue="JUnit.All in MusicShop_test" />
+        <item itemvalue="JUnit.TestGuitar.getRetailPrice" />
+        <item itemvalue="JUnit.TestGuitar.getCostPrice" />
         <item itemvalue="JUnit.TestGuitar.getNumberOfStrings" />
         <item itemvalue="JUnit.TestGuitar.hasType" />
-        <item itemvalue="JUnit.TestGuitar.hasColor" />
       </list>
     </recent_temporary>
   </component>
@@ -786,6 +786,18 @@
     </history-entry>
     <history-entry file="TestGuitar_hasColor - 2018.04.04 at 13h 48m 35s.xml">
       <configuration name="TestGuitar.hasColor" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestGuitar_hasType - 2018.04.04 at 13h 51m 18s.xml">
+      <configuration name="TestGuitar.hasType" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestGuitar_getNumberOfStrings - 2018.04.04 at 13h 53m 13s.xml">
+      <configuration name="TestGuitar.getNumberOfStrings" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_MusicShop_test - 2018.04.04 at 13h 53m 23s.xml">
+      <configuration name="All in MusicShop_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestGuitar_getCostPrice - 2018.04.04 at 13h 54m 44s.xml">
+      <configuration name="TestGuitar.getCostPrice" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
