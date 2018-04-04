@@ -33,6 +33,11 @@ public class TestPiano  {
     }
 
     @Test
+    public void hasSellPrice() {
+        assertEquals(40000, piano.getSellPrice());
+    }
+
+    @Test
     public void canPlay() {
         assertEquals("I don't like mondays", piano.play());
     }
