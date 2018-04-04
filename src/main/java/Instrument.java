@@ -8,4 +8,7 @@ public class Instrument {
         this.type = type;
     }
 
+    public String getColor() {
+        return this.colour;
+    }
 }

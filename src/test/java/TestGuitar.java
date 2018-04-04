@@ -17,6 +17,9 @@ public class TestGuitar {
         assertEquals("Gibson SG", guitar.getModel());
     }
 
-    
+    @Test
+    public void hasColor() {
+        assertEquals("Black", guitar.getColor());
+    }
 
 }
