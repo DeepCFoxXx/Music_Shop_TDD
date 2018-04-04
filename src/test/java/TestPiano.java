@@ -9,7 +9,12 @@ public class TestPiano  {
 
     @Before
     public void before() {
-        piano = new Piano("Steinway", "Black", 1500, 1800);
+        piano = new Piano("SHADD", "White", 20000, 40000);
+    }
+
+    @Test
+    public void hasManufacturer() {
+        assertEquals("SHADD", piano.getManufacturer());
     }
 
     @Test

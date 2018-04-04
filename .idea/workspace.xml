@@ -661,13 +661,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="TestGuitar.getRetailPrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestPiano.canPlay" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MusicShop_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestGuitar" />
-      <option name="METHOD_NAME" value="getRetailPrice" />
+      <option name="MAIN_CLASS_NAME" value="TestPiano" />
+      <option name="METHOD_NAME" value="canPlay" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -678,13 +678,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="TestPiano.canPlay" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestPiano.hasManufacturer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MusicShop_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestPiano" />
-      <option name="METHOD_NAME" value="canPlay" />
+      <option name="METHOD_NAME" value="hasManufacturer" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -748,18 +748,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.All in MusicShop_test" />
-      <item itemvalue="JUnit.TestGuitar.getRetailPrice" />
       <item itemvalue="JUnit.TestGuitar.getMarkupPrice" />
       <item itemvalue="JUnit.TestGuitar.canPlay" />
       <item itemvalue="JUnit.TestPiano.canPlay" />
+      <item itemvalue="JUnit.TestPiano.hasManufacturer" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.All in MusicShop_test" />
+        <item itemvalue="JUnit.TestPiano.hasManufacturer" />
         <item itemvalue="JUnit.TestPiano.canPlay" />
         <item itemvalue="JUnit.TestGuitar.canPlay" />
         <item itemvalue="JUnit.TestGuitar.getMarkupPrice" />
-        <item itemvalue="JUnit.TestGuitar.getRetailPrice" />
       </list>
     </recent_temporary>
   </component>
