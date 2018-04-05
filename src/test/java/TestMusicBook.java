@@ -22,4 +22,9 @@ public class TestMusicBook {
         assertEquals(2, book.getBuyPrice());
     }
 
+    @Test
+    public void hasSellPrice() {
+        assertEquals(12, book.getSellPrice());
+    }
+
 }
