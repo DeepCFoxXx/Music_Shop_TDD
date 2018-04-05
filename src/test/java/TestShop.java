@@ -21,4 +21,9 @@ public class TestShop {
         assertEquals("Rock City", shop.getName());
     }
 
+    @Test
+    public void stockStartsEmpty() {
+        assertEquals(0, shop.stockCount());
+    }
+
 }
