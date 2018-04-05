@@ -21,4 +21,8 @@ public class MusicBook implements ISell {
     public int getSellPrice() {
         return this.sellPrice;
     }
+
+    public int getMarkUpPrice() {
+        return this.sellPrice -= this.buyPrice;
+    }
 }
