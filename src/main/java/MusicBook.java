@@ -13,4 +13,8 @@ public class MusicBook implements ISell {
     public String getTitle() {
         return this.title;
     }
+
+    public int getBuyPrice() {
+        return this.buyPrice;
+    }
 }

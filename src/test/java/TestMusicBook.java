@@ -17,4 +17,9 @@ public class TestMusicBook {
         assertEquals("Guns and Roses Appetite for Tabs", book.getTitle());
     }
 
+    @Test
+    public void hasBuyPrice() {
+        assertEquals(2, book.getBuyPrice());
+    }
+
 }
