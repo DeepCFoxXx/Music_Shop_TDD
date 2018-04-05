@@ -621,13 +621,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="TestMusicStand.hasMarkupPrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestShop.canAddToStock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MusicShop_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestMusicStand" />
-      <option name="METHOD_NAME" value="hasMarkupPrice" />
+      <option name="MAIN_CLASS_NAME" value="TestShop" />
+      <option name="METHOD_NAME" value="canAddToStock" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -638,13 +638,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="TestShop.canAddToStock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestShop.canRemoveFromStock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MusicShop_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestShop" />
-      <option name="METHOD_NAME" value="canAddToStock" />
+      <option name="METHOD_NAME" value="canRemoveFromStock" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -741,19 +741,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.TestMusicStand.hasMarkupPrice" />
       <item itemvalue="JUnit.All in MusicShop_test" />
       <item itemvalue="JUnit.TestShop.hasName" />
       <item itemvalue="JUnit.TestShop.stockStartsEmpty" />
       <item itemvalue="JUnit.TestShop.canAddToStock" />
+      <item itemvalue="JUnit.TestShop.canRemoveFromStock" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.All in MusicShop_test" />
+        <item itemvalue="JUnit.TestShop.canRemoveFromStock" />
         <item itemvalue="JUnit.TestShop.canAddToStock" />
         <item itemvalue="JUnit.TestShop.stockStartsEmpty" />
         <item itemvalue="JUnit.TestShop.hasName" />
-        <item itemvalue="JUnit.TestMusicStand.hasMarkupPrice" />
       </list>
     </recent_temporary>
   </component>

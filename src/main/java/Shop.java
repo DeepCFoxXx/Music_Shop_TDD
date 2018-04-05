@@ -21,4 +21,9 @@ public class Shop {
     public void addToStock(ISell item) {
         this.stock.add(item);
     }
+
+    public void removeFromStock(ISell item) {
+        this.stock.remove(item);
+    }
+
 }
