@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="acd12353-0124-48b5-a621-2135a2e4e24d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Shop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestShop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Shop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Shop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestShop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestShop.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -28,11 +28,15 @@
       <file leaf-file-name="Shop.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Shop.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+            <state relative-caret-position="315">
+              <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
               <folding>
                 <element signature="e#249#250#0" expanded="true" />
                 <element signature="e#275#276#0" expanded="true" />
+                <element signature="e#312#313#0" expanded="true" />
+                <element signature="e#338#339#0" expanded="true" />
+                <element signature="e#394#395#0" expanded="true" />
+                <element signature="e#413#414#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -41,12 +45,14 @@
       <file leaf-file-name="TestShop.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestShop.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="20" column="46" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="46" />
+            <state relative-caret-position="394">
+              <caret line="30" column="23" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#352#353#0" expanded="true" />
                 <element signature="e#410#411#0" expanded="true" />
+                <element signature="e#456#457#0" expanded="true" />
+                <element signature="e#486#487#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -591,7 +597,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestShop.stockStartsEmpty">
+  <component name="RunManager" selected="JUnit.All in MusicShop_test">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -632,13 +638,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="TestMusicStand.hasSellPrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestShop.canAddToStock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MusicShop_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestMusicStand" />
-      <option name="METHOD_NAME" value="hasSellPrice" />
+      <option name="MAIN_CLASS_NAME" value="TestShop" />
+      <option name="METHOD_NAME" value="canAddToStock" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -735,19 +741,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.TestMusicStand.hasSellPrice" />
       <item itemvalue="JUnit.TestMusicStand.hasMarkupPrice" />
       <item itemvalue="JUnit.All in MusicShop_test" />
       <item itemvalue="JUnit.TestShop.hasName" />
       <item itemvalue="JUnit.TestShop.stockStartsEmpty" />
+      <item itemvalue="JUnit.TestShop.canAddToStock" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in MusicShop_test" />
+        <item itemvalue="JUnit.TestShop.canAddToStock" />
         <item itemvalue="JUnit.TestShop.stockStartsEmpty" />
         <item itemvalue="JUnit.TestShop.hasName" />
-        <item itemvalue="JUnit.All in MusicShop_test" />
         <item itemvalue="JUnit.TestMusicStand.hasMarkupPrice" />
-        <item itemvalue="JUnit.TestMusicStand.hasSellPrice" />
       </list>
     </recent_temporary>
   </component>
@@ -765,15 +771,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestMusicBook_hasTitle - 2018.04.05 at 11h 38m 16s.xml">
-      <configuration name="TestMusicBook.hasTitle" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestMusicBook_hasBuyPrice - 2018.04.05 at 11h 39m 42s.xml">
-      <configuration name="TestMusicBook.hasBuyPrice" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestMusicBook_hasSellPrice - 2018.04.05 at 11h 40m 57s.xml">
-      <configuration name="TestMusicBook.hasSellPrice" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="All_in_MusicShop_test - 2018.04.05 at 11h 41m 02s.xml">
       <configuration name="All in MusicShop_test" configurationId="JUnit" />
     </history-entry>
@@ -795,10 +792,18 @@
     <history-entry file="All_in_MusicShop_test - 2018.04.05 at 12h 03m 09s.xml">
       <configuration name="All in MusicShop_test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestShop_hasName - 2018.04.05 at 12h 23m 34s.xml">
+      <configuration name="TestShop.hasName" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestShop_stockStartsEmpty - 2018.04.05 at 12h 25m 14s.xml">
+      <configuration name="TestShop.stockStartsEmpty" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestShop_canAddToStock - 2018.04.05 at 12h 27m 31s.xml">
+      <configuration name="TestShop.canAddToStock" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -1010,23 +1015,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Shop.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+        <state relative-caret-position="315">
+          <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
           <folding>
             <element signature="e#249#250#0" expanded="true" />
             <element signature="e#275#276#0" expanded="true" />
+            <element signature="e#312#313#0" expanded="true" />
+            <element signature="e#338#339#0" expanded="true" />
+            <element signature="e#394#395#0" expanded="true" />
+            <element signature="e#413#414#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestShop.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="20" column="46" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="46" />
+        <state relative-caret-position="394">
+          <caret line="30" column="23" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#352#353#0" expanded="true" />
             <element signature="e#410#411#0" expanded="true" />
+            <element signature="e#456#457#0" expanded="true" />
+            <element signature="e#486#487#0" expanded="true" />
           </folding>
         </state>
       </provider>

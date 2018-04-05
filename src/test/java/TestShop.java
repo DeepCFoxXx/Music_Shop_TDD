@@ -26,4 +26,10 @@ public class TestShop {
         assertEquals(0, shop.stockCount());
     }
 
+    @Test
+    public void canAddToStock() {
+        shop.addToStock(item);
+        assertEquals(1, shop.stockCount());
+    }
+
 }
