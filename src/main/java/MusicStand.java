@@ -13,4 +13,16 @@ public class MusicStand implements ISell {
     public String getColor() {
         return this.colour;
     }
+
+    public int getBuyPrice() {
+        return this.buyPrice;
+    }
+
+    public int getSellPrice() {
+        return this.sellPrice;
+    }
+
+    public int getMarkupPrice() {
+        return this.sellPrice -= this.buyPrice;
+    }
 }

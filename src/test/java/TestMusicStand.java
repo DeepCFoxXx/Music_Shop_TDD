@@ -9,12 +9,27 @@ public class TestMusicStand {
 
     @Before
     public void before() {
-        stand = new MusicStand("Red", 5, 8);
+        stand = new MusicStand("Red", 5, 10);
     }
 
     @Test
     public void hasColor() {
         assertEquals("Red", stand.getColor());
+    }
+
+    @Test
+    public void hasBuyPrice() {
+        assertEquals(5, stand.getBuyPrice());
+    }
+
+    @Test
+    public void hasSellPrice() {
+        assertEquals(10, stand.getSellPrice());
+    }
+
+    @Test
+    public void hasMarkupPrice() {
+        assertEquals(5, stand.getMarkupPrice());
     }
 
 }
