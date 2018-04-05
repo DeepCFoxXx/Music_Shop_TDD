@@ -39,4 +39,11 @@ public class TestShop {
         assertEquals(0, shop.stockCount());
     }
 
+    @Test
+    public void canAddGuitarToStock() {
+        item = new Guitar("Gibson SG","Black", 6, 800, 1600);
+        shop.addToStock(item);
+        assertEquals(1, shop.stockCount());
+    }
+
 }
