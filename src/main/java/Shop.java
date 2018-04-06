@@ -26,4 +26,10 @@ public class Shop {
         this.stock.remove(item);
     }
 
+    public int totalProfit() {
+        int total = 0;
+        for (ISell item : stock) {
+            total += item.getMarkupPrice();
+        }
+        return total;    }
 }
