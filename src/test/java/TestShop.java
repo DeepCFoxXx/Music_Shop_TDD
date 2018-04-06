@@ -7,13 +7,18 @@ public class TestShop {
 
 
     Shop shop;
-    ISell item;
+    ISell musicBook;
+    ISell piano;
+    ISell musicStand;
+    ISell guitar;
 
     @Before
     public void before() {
         shop = new Shop("Rock City");
-        item = new MusicBook("Guns and Roses Appetite for Tabs", 2, 12);
-
+        musicBook = new MusicBook("Guns and Roses Appetite for Tabs", 2, 12);
+        piano = new Piano("SHADD", "White", 20000, 40000);
+        musicStand = new MusicStand("Red", 5, 10);
+        guitar = new Guitar("Gibson SG","Black", 6, 800, 1600);
     }
 
     @Test
@@ -28,21 +33,21 @@ public class TestShop {
 
     @Test
     public void canAddToStock() {
-        shop.addToStock(item);
+        shop.addToStock(guitar);
         assertEquals(1, shop.stockCount());
     }
 
     @Test
     public void canRemoveFromStock() {
-        shop.addToStock(item);
-        shop.removeFromStock(item);
+        shop.addToStock(guitar);
+        shop.removeFromStock(guitar);
         assertEquals(0, shop.stockCount());
     }
 
     @Test
     public void canAddGuitarToStock() {
-        item = new Guitar("Gibson SG","Black", 6, 800, 1600);
-        shop.addToStock(item);
+        guitar = new Guitar("Gibson SG","Black", 6, 800, 1600);
+        shop.addToStock(guitar);
         assertEquals(1, shop.stockCount());
     }
 
