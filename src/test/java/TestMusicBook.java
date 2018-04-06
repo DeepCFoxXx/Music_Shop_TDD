@@ -29,7 +29,7 @@ public class TestMusicBook {
 
     @Test
     public void getMarkUpPrice() {
-        assertEquals(10, book.getMarkUpPrice());
+        assertEquals(10, book.getMarkupPrice());
     }
 
 }

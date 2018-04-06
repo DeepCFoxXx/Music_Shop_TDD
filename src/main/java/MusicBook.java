@@ -1,8 +1,6 @@
 public class MusicBook extends StockItem {
 
     String title;
-    int buyPrice;
-    int sellPrice;
 
     public MusicBook(String title, int buyPrice, int sellPrice) {
         super(buyPrice, sellPrice);
@@ -12,5 +10,9 @@ public class MusicBook extends StockItem {
     public String getTitle() {
         return this.title;
     }
-    
+
+    public int getMarkupPrice() {
+        return this.sellPrice -= this.buyPrice;
+    }
+
 }

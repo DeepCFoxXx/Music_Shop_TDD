@@ -16,8 +16,4 @@ public abstract class StockItem implements ISell {
         return this.sellPrice;
     }
 
-    public int getMarkUpPrice() {
-        return this.sellPrice -= this.buyPrice;
-    }
-
 }
