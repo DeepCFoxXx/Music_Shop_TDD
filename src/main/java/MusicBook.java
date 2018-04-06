@@ -1,28 +1,16 @@
-public class MusicBook implements ISell {
+public class MusicBook extends StockItem {
 
     String title;
     int buyPrice;
     int sellPrice;
 
     public MusicBook(String title, int buyPrice, int sellPrice) {
+        super(buyPrice, sellPrice);
         this.title = title;
-        this.buyPrice = buyPrice;
-        this.sellPrice = sellPrice;
     }
 
     public String getTitle() {
         return this.title;
     }
-
-    public int getBuyPrice() {
-        return this.buyPrice;
-    }
-
-    public int getSellPrice() {
-        return this.sellPrice;
-    }
-
-    public int getMarkUpPrice() {
-        return this.sellPrice -= this.buyPrice;
-    }
+    
 }
